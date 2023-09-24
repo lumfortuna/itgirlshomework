@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#logotype {
+  width: auto;
+  height: 40px;
+  margin: 20px;
+}
+header {
+  justify-content: center;
+}
+h1 {
+  padding: 20px;
+  color: rgb(95, 2, 182);
+}
+h1:hover {
+  color: rgb(201, 38, 38);
+}
+.menu {
+  text-decoration: none;
+  font-family: Oswald;
+  font-size: 21px;
+  text-decoration: none;
+  margin: 15px;
+  color: blueviolet;
+}
+.menu:hover {
+  transform: scale(1.2);
+}
+nav {
+  justify-content: flex-end;
+  margin: 13px;
+}
+nav .menu:hover {
+  color: blue;
+}
+body {
+  background-color: rgb(221, 215, 213);
+  min-height: 100vh;
+  justify-content: stretch;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+.flex-container,
+nav,
+header {
+  display: flex;
+}
+img {
+  height: 200px;
+  margin: 20px;
+}
+.schedule {
+  font-family: Oswald;
+  font-size: 21px;
+  margin: 20px;
+}
+.address {
+  font-family: Oswald;
+  font-size: 15px;
+  margin: 20px;
+}
+.picture:hover {
+  transform: scale(1.5);
+  transition: 0.2s;
+}
